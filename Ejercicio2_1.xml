@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+
+<rdf:RDF 
+ xmlns="http://www.example.com/myprimerrdf#"
+ xml:base="http://www.example.com/myprimerrdf"
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+	....//Creación de la clase Tweet
+	<rdfs:Class rdf:about="#Tweet"/>
+	
+	....//Creación de la clase User
+	<rdfs:Class rdf:about="#User"/>
+	
+	....//Creación de propiedad content
+	<rdf:Property rdf:about="#content"/>
+	....//Creación de propiedad creator
+	<rdf:Property rdf:about="#creator"/>
+	....//Creación de propiedad userAccount
+	<rdf:Property rdf:about="#userAccount"/>
+	
+	....//Creación del individuo tweet111
+	<Tweet rdf:about = "http://www.example.com/myprimerrdf#tweet111"/>
+	
+	....//Creación del individuo user2013
+	<User rdf:about = "http://www.example.com/myprimerrdf#user201"/>
+	
+</rdf:RDF>

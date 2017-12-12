@@ -1,0 +1,229 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://ciff.curso2015/ontologies/owl/socialNetwork#"
+     xml:base="http://ciff.curso2015/ontologies/owl/socialNetwork"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:socialNetwork="http://ciff.curso2015/ontologies/owl/socialNetwork#">
+    <owl:Ontology rdf:about="http://ciff.curso2015/ontologies/owl/socialNetwork">
+        <owl:versionIRI rdf:resource="http://ciff.curso2015/ontologies/owl/socialNetwork/0.0.1"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://ciff.curso2015/ontologies/owl/socialNetwork#creador -->
+
+    <owl:ObjectProperty rdf:about="http://ciff.curso2015/ontologies/owl/socialNetwork#creador">
+        <rdfs:domain rdf:resource="http://ciff.curso2015/ontologies/owl/socialNetwork#Post"/>
+        <rdfs:range rdf:resource="http://ciff.curso2015/ontologies/owl/socialNetwork#Usuario"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ciff.curso2015/ontologies/owl/socialNetwork#followers -->
+
+    <owl:ObjectProperty rdf:about="http://ciff.curso2015/ontologies/owl/socialNetwork#followers">
+        <rdfs:domain rdf:resource="http://ciff.curso2015/ontologies/owl/socialNetwork#Usuario_de_Twitter"/>
+        <rdfs:range rdf:resource="http://ciff.curso2015/ontologies/owl/socialNetwork#Usuario_de_Twitter"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ciff.curso2015/ontologies/owl/socialNetwork#friends -->
+
+    <owl:ObjectProperty rdf:about="http://ciff.curso2015/ontologies/owl/socialNetwork#friends">
+        <rdfs:domain rdf:resource="http://ciff.curso2015/ontologies/owl/socialNetwork#Usuario_de_Facebook"/>
+        <rdfs:range rdf:resource="http://ciff.curso2015/ontologies/owl/socialNetwork#Usuario_de_Facebook"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://ciff.curso2015/ontologies/owl/socialNetwork#contenido -->
+
+    <owl:DatatypeProperty rdf:about="http://ciff.curso2015/ontologies/owl/socialNetwork#contenido">
+        <rdfs:domain rdf:resource="http://ciff.curso2015/ontologies/owl/socialNetwork#Post"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ciff.curso2015/ontologies/owl/socialNetwork#fecha_de_creacion -->
+
+    <owl:DatatypeProperty rdf:about="http://ciff.curso2015/ontologies/owl/socialNetwork#fecha_de_creacion">
+        <rdfs:domain rdf:resource="http://ciff.curso2015/ontologies/owl/socialNetwork#Post"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ciff.curso2015/ontologies/owl/socialNetwork#likes -->
+
+    <owl:DatatypeProperty rdf:about="http://ciff.curso2015/ontologies/owl/socialNetwork#likes">
+        <rdfs:domain rdf:resource="http://ciff.curso2015/ontologies/owl/socialNetwork#Publicacion"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ciff.curso2015/ontologies/owl/socialNetwork#retweets -->
+
+    <owl:DatatypeProperty rdf:about="http://ciff.curso2015/ontologies/owl/socialNetwork#retweets">
+        <rdfs:domain rdf:resource="http://ciff.curso2015/ontologies/owl/socialNetwork#Tweet"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ciff.curso2015/ontologies/owl/socialNetwork#user_account -->
+
+    <owl:DatatypeProperty rdf:about="http://ciff.curso2015/ontologies/owl/socialNetwork#user_account">
+        <rdfs:domain rdf:resource="http://ciff.curso2015/ontologies/owl/socialNetwork#Usuario"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://ciff.curso2015/ontologies/owl/socialNetwork#Post -->
+
+    <owl:Class rdf:about="http://ciff.curso2015/ontologies/owl/socialNetwork#Post"/>
+    
+
+
+    <!-- http://ciff.curso2015/ontologies/owl/socialNetwork#Publicacion -->
+
+    <owl:Class rdf:about="http://ciff.curso2015/ontologies/owl/socialNetwork#Publicacion">
+        <rdfs:subClassOf rdf:resource="http://ciff.curso2015/ontologies/owl/socialNetwork#Post"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ciff.curso2015/ontologies/owl/socialNetwork#Tweet -->
+
+    <owl:Class rdf:about="http://ciff.curso2015/ontologies/owl/socialNetwork#Tweet">
+        <rdfs:subClassOf rdf:resource="http://ciff.curso2015/ontologies/owl/socialNetwork#Post"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ciff.curso2015/ontologies/owl/socialNetwork#Usuario -->
+
+    <owl:Class rdf:about="http://ciff.curso2015/ontologies/owl/socialNetwork#Usuario"/>
+    
+
+
+    <!-- http://ciff.curso2015/ontologies/owl/socialNetwork#Usuario_de_Facebook -->
+
+    <owl:Class rdf:about="http://ciff.curso2015/ontologies/owl/socialNetwork#Usuario_de_Facebook">
+        <rdfs:subClassOf rdf:resource="http://ciff.curso2015/ontologies/owl/socialNetwork#Usuario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ciff.curso2015/ontologies/owl/socialNetwork#Usuario_de_Twitter -->
+
+    <owl:Class rdf:about="http://ciff.curso2015/ontologies/owl/socialNetwork#Usuario_de_Twitter">
+        <rdfs:subClassOf rdf:resource="http://ciff.curso2015/ontologies/owl/socialNetwork#Usuario"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://ciff.curso2015/ontologies/owl/socialNetwork#fb101 -->
+
+    <owl:NamedIndividual rdf:about="http://ciff.curso2015/ontologies/owl/socialNetwork#fb101">
+        <rdf:type rdf:resource="http://ciff.curso2015/ontologies/owl/socialNetwork#Publicacion"/>
+        <creador rdf:resource="http://ciff.curso2015/ontologies/owl/socialNetwork#user201"/>
+        <contenido>Un post sobre Joaquin Sabina</contenido>
+        <fecha_de_creacion rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-02-12T21:00:10</fecha_de_creacion>
+        <likes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">123</likes>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ciff.curso2015/ontologies/owl/socialNetwork#tweet111 -->
+
+    <owl:NamedIndividual rdf:about="http://ciff.curso2015/ontologies/owl/socialNetwork#tweet111">
+        <rdf:type rdf:resource="http://ciff.curso2015/ontologies/owl/socialNetwork#Tweet"/>
+        <creador rdf:resource="http://ciff.curso2015/ontologies/owl/socialNetwork#user211"/>
+        <contenido>Un tweet de Joaquin Sabina</contenido>
+        <fecha_de_creacion rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-03-12T21:00:10</fecha_de_creacion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ciff.curso2015/ontologies/owl/socialNetwork#user201 -->
+
+    <owl:NamedIndividual rdf:about="http://ciff.curso2015/ontologies/owl/socialNetwork#user201">
+        <rdf:type rdf:resource="http://ciff.curso2015/ontologies/owl/socialNetwork#Usuario_de_Facebook"/>
+        <user_account>er_Antonio</user_account>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ciff.curso2015/ontologies/owl/socialNetwork#user202 -->
+
+    <owl:NamedIndividual rdf:about="http://ciff.curso2015/ontologies/owl/socialNetwork#user202">
+        <rdf:type rdf:resource="http://ciff.curso2015/ontologies/owl/socialNetwork#Usuario_de_Facebook"/>
+        <friends rdf:resource="http://ciff.curso2015/ontologies/owl/socialNetwork#user201"/>
+        <user_account>pecosa</user_account>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ciff.curso2015/ontologies/owl/socialNetwork#user211 -->
+
+    <owl:NamedIndividual rdf:about="http://ciff.curso2015/ontologies/owl/socialNetwork#user211">
+        <rdf:type rdf:resource="http://ciff.curso2015/ontologies/owl/socialNetwork#Usuario_de_Twitter"/>
+        <user_account>@pepe</user_account>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

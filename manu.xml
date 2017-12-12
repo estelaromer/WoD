@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:ns1="fb:"
+  xmlns:ns2="http://schema.org/"
+  xmlns:ns3="http://www.w3.org/ns/rdfa#"
+  xmlns:ns4="http://www.w3.org/1999/xhtml/vocab#"
+>
+  <rdf:Description>
+    <ns4:role rdf:resource="http://www.w3.org/1999/xhtml/vocab#menuitem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.co.uk/music/artists/7570a0dd-5a67-401b-b19a-261eee01a284#mn-mi-playlists-featured">
+    <ns4:role rdf:resource="http://www.w3.org/1999/xhtml/vocab#menuitem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.co.uk/music/artists/7570a0dd-5a67-401b-b19a-261eee01a284#orb-search-form">
+    <ns4:role rdf:resource="http://www.w3.org/1999/xhtml/vocab#search"/>
+  </rdf:Description>
+  <ns2:MusicRecording>
+    <ns2:name xml:lang="en-gb">Helno Est Mort</ns2:name>
+    <ns2:url rdf:resource="https://www.bbc.co.uk/music/artists/7570a0dd-5a67-401b-b19a-261eee01a284?trackfocus=n2xf25"/>
+    <ns2:image xml:lang="en-gb">https://ichef.bbci.co.uk/images/ic/256x256/p01bqh8f.jpg</ns2:image>
+    <ns2:byArtist xml:lang="en-gb">Manu Chao</ns2:byArtist>
+  </ns2:MusicRecording>
+  <rdf:Description rdf:about="https://www.bbc.co.uk/music/artists/7570a0dd-5a67-401b-b19a-261eee01a284#mn-mi-mymusic-playlists">
+    <ns4:role rdf:resource="http://www.w3.org/1999/xhtml/vocab#menuitem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.co.uk/music/artists/7570a0dd-5a67-401b-b19a-261eee01a284#mn-mi-artists-recommended">
+    <ns4:role rdf:resource="http://www.w3.org/1999/xhtml/vocab#menuitem"/>
+  </rdf:Description>
+  <ns2:MusicRecording>
+    <ns2:name xml:lang="en-gb">Les Rues De L'Hiver</ns2:name>
+    <ns2:url rdf:resource="https://www.bbc.co.uk/music/artists/7570a0dd-5a67-401b-b19a-261eee01a284?trackfocus=nzjgjv"/>
+    <ns2:image xml:lang="en-gb">https://ichef.bbci.co.uk/images/ic/256x256/p01bqh8f.jpg</ns2:image>
+    <ns2:byArtist xml:lang="en-gb">Manu Chao</ns2:byArtist>
+  </ns2:MusicRecording>
+  <rdf:Description>
+    <ns4:role rdf:resource="http://www.w3.org/1999/xhtml/vocab#presentation"/>
+  </rdf:Description>
+  <rdf:Description>
+    <ns4:role rdf:resource="http://www.w3.org/1999/xhtml/vocab#menuitem"/>
+  </rdf:Description>
+  <rdf:Description>
+    <ns4:role rdf:resource="http://www.w3.org/1999/xhtml/vocab#menuitem"/>
+  </rdf:Description>
+  <rdf:Description>
+    <ns4:role rdf:resource="http://www.w3.org/1999/xhtml/vocab#menuitem"/>
+  </rdf:Description>
+  <rdf:Description>
+    <ns4:role rdf:resource="http://www.w3.org/1999/xhtml/vocab#presentation"/>
+  </rdf:Description>
+  <rdf:Description>
+    <ns4:role rdf:resource="http://www.w3.org/1999/xhtml/vocab#presentation"/>
+  </rdf:Description>
+  <rdf:Description>
+    <ns4:role rdf:resource="http://www.w3.org/1999/xhtml/vocab#menubar"/>
+  </rdf:Description>
+  <rdf:Description>
+    <ns4:role rdf:resource="http://www.w3.org/1999/xhtml/vocab#presentation"/>
+  </rdf:Description>
+  <ns2:MusicRecording>
+    <ns2:name xml:lang="en-gb">MR BOBBY</ns2:name>
+    <ns2:url rdf:resource="https://www.bbc.co.uk/music/artists/7570a0dd-5a67-401b-b19a-261eee01a284?trackfocus=nzjjgv"/>
+    <ns2:image xml:lang="en-gb">https://ichef.bbci.co.uk/images/ic/256x256/p01bqh8f.jpg</ns2:image>
+    <ns2:byArtist xml:lang="en-gb">Manu Chao</ns2:byArtist>
+  </ns2:MusicRecording>
+  <rdf:Description>
+    <ns4:role rdf:resource="http://www.w3.org/1999/xhtml/vocab#menubar"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.co.uk/music/artists/7570a0dd-5a67-401b-b19a-261eee01a284#mn-mi-playlists-recommended">
+    <ns4:role rdf:resource="http://www.w3.org/1999/xhtml/vocab#menuitem"/>
+  </rdf:Description>
+  <rdf:Description>
+    <ns4:role rdf:resource="http://www.w3.org/1999/xhtml/vocab#menubar"/>
+  </rdf:Description>
+  <rdf:Description>
+    <ns4:role rdf:resource="http://www.w3.org/1999/xhtml/vocab#menuitem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.co.uk/music/artists/7570a0dd-5a67-401b-b19a-261eee01a284">
+    <ns3:usesVocabulary rdf:resource="http://schema.org/"/>
+    <og:description xml:lang="en-gb">The BBC artist page for Manu Chao. Find the best clips, watch programmes, catch up on the news, and read the latest Manu Chao interviews.</og:description>
+    <og:url xml:lang="en-gb">https://www.bbc.co.uk/music/artists/7570a0dd-5a67-401b-b19a-261eee01a284</og:url>
+    <ns1:admins xml:lang="en-gb">100004154058350</ns1:admins>
+    <og:image xml:lang="en-gb">https://ichef.bbci.co.uk/images/ic/960x540/p01bqh8f.jpg</og:image>
+    <og:title xml:lang="en-gb">Manu Chao - New Songs, Playlists &amp; Latest News - BBC Music</og:title>
+    <og:site_name xml:lang="en-gb">BBC</og:site_name>
+    <og:type xml:lang="en-gb">website</og:type>
+  </rdf:Description>
+  <rdf:Description>
+    <ns4:role rdf:resource="http://www.w3.org/1999/xhtml/vocab#menubar"/>
+  </rdf:Description>
+  <rdf:Description>
+    <ns4:role rdf:resource="http://www.w3.org/1999/xhtml/vocab#menuitem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.co.uk/music/artists/7570a0dd-5a67-401b-b19a-261eee01a284#mn-mi-audiovideo-all">
+    <ns4:role rdf:resource="http://www.w3.org/1999/xhtml/vocab#menuitem"/>
+  </rdf:Description>
+  <ns2:MusicRecording>
+    <ns2:name xml:lang="en-gb">La Valse A Sale Temps</ns2:name>
+    <ns2:url rdf:resource="https://www.bbc.co.uk/music/artists/7570a0dd-5a67-401b-b19a-261eee01a284?trackfocus=nzjjmj"/>
+    <ns2:image xml:lang="en-gb">https://ichef.bbci.co.uk/images/ic/256x256/p01bqh8f.jpg</ns2:image>
+    <ns2:byArtist xml:lang="en-gb">Manu Chao</ns2:byArtist>
+  </ns2:MusicRecording>
+  <rdf:Description rdf:about="https://www.bbc.co.uk/music/artists/7570a0dd-5a67-401b-b19a-261eee01a284#skip-to-content">
+    <ns4:role rdf:resource="http://www.w3.org/1999/xhtml/vocab#main"/>
+  </rdf:Description>
+  <ns2:MusicRecording>
+    <ns2:name xml:lang="en-gb">Bongo Bong</ns2:name>
+    <ns2:url rdf:resource="https://www.bbc.co.uk/music/artists/7570a0dd-5a67-401b-b19a-261eee01a284?trackfocus=nz993w"/>
+    <ns2:image xml:lang="en-gb">https://ichef.bbci.co.uk/images/ic/256x256/p01bqh8f.jpg</ns2:image>
+    <ns2:byArtist xml:lang="en-gb">Manu Chao</ns2:byArtist>
+  </ns2:MusicRecording>
+  <rdf:Description rdf:about="https://www.bbc.co.uk/music/artists/7570a0dd-5a67-401b-b19a-261eee01a284#mn-mi-mymusic-performances">
+    <ns4:role rdf:resource="http://www.w3.org/1999/xhtml/vocab#menuitem"/>
+  </rdf:Description>
+  <rdf:Description>
+    <ns4:role rdf:resource="http://www.w3.org/1999/xhtml/vocab#menubar"/>
+  </rdf:Description>
+  <rdf:Description>
+    <ns4:role rdf:resource="http://www.w3.org/1999/xhtml/vocab#navigation"/>
+  </rdf:Description>
+  <rdf:Description>
+    <ns4:role rdf:resource="http://www.w3.org/1999/xhtml/vocab#presentation"/>
+  </rdf:Description>
+  <ns2:MusicRecording>
+    <ns2:name xml:lang="en-gb">King Of The Mambo</ns2:name>
+    <ns2:url rdf:resource="https://www.bbc.co.uk/music/artists/7570a0dd-5a67-401b-b19a-261eee01a284?trackfocus=nnwwfg"/>
+    <ns2:image xml:lang="en-gb">https://ichef.bbci.co.uk/images/ic/256x256/p01bqh8f.jpg</ns2:image>
+    <ns2:byArtist xml:lang="en-gb">Manu Chao</ns2:byArtist>
+  </ns2:MusicRecording>
+  <rdf:Description>
+    <ns4:role rdf:resource="http://www.w3.org/1999/xhtml/vocab#presentation"/>
+  </rdf:Description>
+  <rdf:Description>
+    <ns4:role rdf:resource="http://www.w3.org/1999/xhtml/vocab#menubar"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.co.uk/music/artists/7570a0dd-5a67-401b-b19a-261eee01a284#mn-mi-audiovideo-popular">
+    <ns4:role rdf:resource="http://www.w3.org/1999/xhtml/vocab#menuitem"/>
+  </rdf:Description>
+  <ns2:MusicRecording>
+    <ns2:name xml:lang="en-gb">Leave Me Alone (feat. Manu Chao)</ns2:name>
+    <ns2:url rdf:resource="https://www.bbc.co.uk/music/artists/ed4a6b66-f07f-41cb-9e5d-ea47d40beba6?trackfocus=n4566f"/>
+    <ns2:image xml:lang="en-gb">https://ichef.bbci.co.uk/images/ic/256x256/p01bqh8f.jpg</ns2:image>
+    <ns2:byArtist xml:lang="en-gb">Calypso Rose</ns2:byArtist>
+  </ns2:MusicRecording>
+  <rdf:Description>
+    <ns4:role rdf:resource="http://www.w3.org/1999/xhtml/vocab#presentation"/>
+  </rdf:Description>
+  <rdf:Description>
+    <ns4:role rdf:resource="http://www.w3.org/1999/xhtml/vocab#menuitem"/>
+  </rdf:Description>
+  <rdf:Description>
+    <ns4:role rdf:resource="http://www.w3.org/1999/xhtml/vocab#presentation"/>
+  </rdf:Description>
+  <ns2:MusicGroup>
+    <ns2:name xml:lang="en-gb">Manu Chao</ns2:name>
+    <ns2:image xml:lang="en-gb">https://ichef.bbci.co.uk/images/ic/960x540/p01bqh8f.jpg</ns2:image>
+    <ns2:foundingDate xml:lang="en-gb">1961-06-21</ns2:foundingDate>
+    <ns2:sameAs xml:lang="en-gb">https://musicbrainz.org/artist/7570a0dd-5a67-401b-b19a-261eee01a284</ns2:sameAs>
+  </ns2:MusicGroup>
+  <rdf:Description>
+    <ns4:role rdf:resource="http://www.w3.org/1999/xhtml/vocab#menubar"/>
+  </rdf:Description>
+  <rdf:Description>
+    <ns4:role rdf:resource="http://www.w3.org/1999/xhtml/vocab#complementary"/>
+  </rdf:Description>
+  <ns2:MusicRecording>
+    <ns2:name xml:lang="en-gb">Rainin' In Paradize</ns2:name>
+    <ns2:url rdf:resource="https://www.bbc.co.uk/music/artists/7570a0dd-5a67-401b-b19a-261eee01a284?trackfocus=nnbmhv"/>
+    <ns2:image xml:lang="en-gb">https://ichef.bbci.co.uk/images/ic/256x256/p01bqh8f.jpg</ns2:image>
+    <ns2:byArtist xml:lang="en-gb">Manu Chao</ns2:byArtist>
+  </ns2:MusicRecording>
+  <ns2:MusicRecording>
+    <ns2:name xml:lang="en-gb">Me Gustas Tu</ns2:name>
+    <ns2:url rdf:resource="https://www.bbc.co.uk/music/artists/7570a0dd-5a67-401b-b19a-261eee01a284?trackfocus=nnnhd4"/>
+    <ns2:image xml:lang="en-gb">https://ichef.bbci.co.uk/images/ic/256x256/p01bqh8f.jpg</ns2:image>
+    <ns2:byArtist xml:lang="en-gb">Manu Chao</ns2:byArtist>
+  </ns2:MusicRecording>
+  <rdf:Description>
+    <ns4:role rdf:resource="http://www.w3.org/1999/xhtml/vocab#navigation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.co.uk/music/artists/7570a0dd-5a67-401b-b19a-261eee01a284#mn-mi-tracks-popular">
+    <ns4:role rdf:resource="http://www.w3.org/1999/xhtml/vocab#menuitem"/>
+  </rdf:Description>
+  <ns2:MusicRecording>
+    <ns2:name xml:lang="en-gb">Mentira</ns2:name>
+    <ns2:url rdf:resource="https://www.bbc.co.uk/music/artists/7570a0dd-5a67-401b-b19a-261eee01a284?trackfocus=nzgbz4"/>
+    <ns2:image xml:lang="en-gb">https://ichef.bbci.co.uk/images/ic/256x256/p01bqh8f.jpg</ns2:image>
+    <ns2:byArtist xml:lang="en-gb">Manu Chao</ns2:byArtist>
+  </ns2:MusicRecording>
+  <ns2:MusicRecording>
+    <ns2:name xml:lang="en-gb">Tristeza Maleza</ns2:name>
+    <ns2:url rdf:resource="https://www.bbc.co.uk/music/artists/7570a0dd-5a67-401b-b19a-261eee01a284?trackfocus=n38cnh"/>
+    <ns2:image xml:lang="en-gb">https://ichef.bbci.co.uk/images/ic/256x256/p01bqh8f.jpg</ns2:image>
+    <ns2:byArtist xml:lang="en-gb">Manu Chao</ns2:byArtist>
+  </ns2:MusicRecording>
+  <rdf:Description>
+    <ns4:role rdf:resource="http://www.w3.org/1999/xhtml/vocab#presentation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.co.uk/music/artists/7570a0dd-5a67-401b-b19a-261eee01a284#mn-mi-mymusic-artists">
+    <ns4:role rdf:resource="http://www.w3.org/1999/xhtml/vocab#menuitem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.co.uk/music/artists/7570a0dd-5a67-401b-b19a-261eee01a284#mn-mi-mymusic-interviews">
+    <ns4:role rdf:resource="http://www.w3.org/1999/xhtml/vocab#menuitem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.co.uk/music/artists/7570a0dd-5a67-401b-b19a-261eee01a284#mn-mi-audiovideo-recommended">
+    <ns4:role rdf:resource="http://www.w3.org/1999/xhtml/vocab#menuitem"/>
+  </rdf:Description>
+  <rdf:Description>
+    <ns4:role rdf:resource="http://www.w3.org/1999/xhtml/vocab#presentation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.co.uk/music/artists/7570a0dd-5a67-401b-b19a-261eee01a284#mn-mi-artists-all">
+    <ns4:role rdf:resource="http://www.w3.org/1999/xhtml/vocab#menuitem"/>
+  </rdf:Description>
+  <rdf:Description>
+    <ns4:role rdf:resource="http://www.w3.org/1999/xhtml/vocab#menubar"/>
+  </rdf:Description>
+  <rdf:Description>
+    <ns4:role rdf:resource="http://www.w3.org/1999/xhtml/vocab#presentation"/>
+  </rdf:Description>
+  <rdf:Description>
+    <ns4:role rdf:resource="http://www.w3.org/1999/xhtml/vocab#presentation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.co.uk/music/artists/7570a0dd-5a67-401b-b19a-261eee01a284#mn-mi-artists-popular">
+    <ns4:role rdf:resource="http://www.w3.org/1999/xhtml/vocab#menuitem"/>
+  </rdf:Description>
+  <rdf:Description>
+    <ns4:role rdf:resource="http://www.w3.org/1999/xhtml/vocab#presentation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.co.uk/music/artists/7570a0dd-5a67-401b-b19a-261eee01a284#mn-mi-mymusic-tracks">
+    <ns4:role rdf:resource="http://www.w3.org/1999/xhtml/vocab#menuitem"/>
+  </rdf:Description>
+  <rdf:Description>
+    <ns4:role rdf:resource="http://www.w3.org/1999/xhtml/vocab#presentation"/>
+  </rdf:Description>
+  <rdf:Description>
+    <ns4:role rdf:resource="http://www.w3.org/1999/xhtml/vocab#menuitem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.co.uk/music/artists/7570a0dd-5a67-401b-b19a-261eee01a284#mn-mi-tracks-recommended">
+    <ns4:role rdf:resource="http://www.w3.org/1999/xhtml/vocab#menuitem"/>
+  </rdf:Description>
+  <ns2:MusicRecording>
+    <ns2:name xml:lang="en-gb">La Vida Tombola</ns2:name>
+    <ns2:url rdf:resource="https://www.bbc.co.uk/music/artists/7570a0dd-5a67-401b-b19a-261eee01a284?trackfocus=n22j2m"/>
+    <ns2:image xml:lang="en-gb">https://ichef.bbci.co.uk/images/ic/256x256/p01bqh8f.jpg</ns2:image>
+    <ns2:byArtist xml:lang="en-gb">Manu Chao</ns2:byArtist>
+  </ns2:MusicRecording>
+  <ns2:MusicRecording>
+    <ns2:name xml:lang="en-gb">Politik Kills</ns2:name>
+    <ns2:url rdf:resource="https://www.bbc.co.uk/music/artists/7570a0dd-5a67-401b-b19a-261eee01a284?trackfocus=nzq9b5"/>
+    <ns2:image xml:lang="en-gb">https://ichef.bbci.co.uk/images/ic/256x256/p01bqh8f.jpg</ns2:image>
+    <ns2:byArtist xml:lang="en-gb">Manu Chao</ns2:byArtist>
+  </ns2:MusicRecording>
+  <rdf:Description>
+    <ns4:role rdf:resource="http://www.w3.org/1999/xhtml/vocab#contentinfo"/>
+  </rdf:Description>
+  <rdf:Description>
+    <ns4:role rdf:resource="http://www.w3.org/1999/xhtml/vocab#presentation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.co.uk/music/artists/7570a0dd-5a67-401b-b19a-261eee01a284#mn-mi-tracks-find-a-track">
+    <ns4:role rdf:resource="http://www.w3.org/1999/xhtml/vocab#menuitem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.co.uk/music/artists/7570a0dd-5a67-401b-b19a-261eee01a284#orb-banner">
+    <ns4:role rdf:resource="http://www.w3.org/1999/xhtml/vocab#banner"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.co.uk/music/artists/7570a0dd-5a67-401b-b19a-261eee01a284#mn-mi-playlists-all">
+    <ns4:role rdf:resource="http://www.w3.org/1999/xhtml/vocab#menuitem"/>
+  </rdf:Description>
+  <rdf:Description>
+    <ns4:role rdf:resource="http://www.w3.org/1999/xhtml/vocab#presentation"/>
+  </rdf:Description>
+  <ns2:MusicRecording>
+    <ns2:name xml:lang="en-gb">Merry Blues</ns2:name>
+    <ns2:url rdf:resource="https://www.bbc.co.uk/music/artists/7570a0dd-5a67-401b-b19a-261eee01a284?trackfocus=nz6mzr"/>
+    <ns2:image xml:lang="en-gb">https://ichef.bbci.co.uk/images/ic/256x256/p01bqh8f.jpg</ns2:image>
+    <ns2:byArtist xml:lang="en-gb">Manu Chao</ns2:byArtist>
+  </ns2:MusicRecording>
+  <ns2:MusicRecording>
+    <ns2:name xml:lang="en-gb">Clandestino</ns2:name>
+    <ns2:url rdf:resource="https://www.bbc.co.uk/music/artists/7570a0dd-5a67-401b-b19a-261eee01a284?trackfocus=nz9w44"/>
+    <ns2:image xml:lang="en-gb">https://ichef.bbci.co.uk/images/ic/256x256/p01bqh8f.jpg</ns2:image>
+    <ns2:byArtist xml:lang="en-gb">Manu Chao</ns2:byArtist>
+  </ns2:MusicRecording>
+</rdf:RDF>
+

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:sioc="http://rdfs.org/sioc/spec/"
+xmlns:myNameSpace="http://www.example.com/myprimerrdf#"
+xml:base="http://www.example.com/myprimerrdf"
+xmlsn:="http://www.example.com/myprimerrdf#">
+
+
+<rdf:Description rdf:about="http://www.example.com/myprimerrdf#fb101">
+....// Descripciones de fb101
+	<myNameSpace:identifier>fb101</myNameSpace:identifier>
+	<myNameSpace:content>"Un post"</myNameSpace:content>
+	<myNameSpace:has_creator rdf:resource = "#user201">
+	<myNameSpace:likes>123</myNameSpace:likes>
+	<myNameSpace:created>12/02/2015</myNameSpace:created>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.com/myprimerrdf#tweet111">
+....// Descripciones de tweet111
+	<myNameSpace:identifier>tweet101</myNameSpace:identifier>
+	<myNameSpace:content>"Un tweet"</myNameSpace:content>
+	<myNameSpace:has_creator rdf:resource = "#user211">
+	<myNameSpace:retweets>22</myNameSpace:retweets>
+	<myNameSpace:created>12/03/2015</myNameSpace:creation_date>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.com/myprimerrdf#user201">
+....// Descripciones de user201
+	<myNameSpace:identifier>user201</myNameSpace:identifier>
+	<myNameSpace:user_account>er_Antonio</myNameSpace:user_account>
+	<myNameSpace:user_name>Antonio Rueda</myNameSpace:user_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.com/myprimerrdf#user211">
+....// Descripciones de user211
+	<myNameSpace:identifier>user211</myNameSpace:identifier>
+	<myNameSpace:user_account>@Pepe</myNameSpace:user_account>
+	<myNameSpace:user_name>Jose Maria Fuentes</myNameSpace:user_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="">
+....// Descripciones de p301
+</rdf:Description>
+
+</rdf:RDF>

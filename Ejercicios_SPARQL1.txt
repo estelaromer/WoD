@@ -1,0 +1,85 @@
+#EJERCICIOS SPARQL1.0
+EJERCICIO 4_1
+PREFIX foaf: <http://xmlns.com/foaf/0.1/> 
+SELECT ?name
+WHERE{
+  ?s foaf:name ?name.
+  ?s foaf:mbox ?mbox
+}
+
+EJERCICIO 4_2
+PREFIX foaf: <http://xmlns.com/foaf/0.1/> 
+SELECT ?name ?mbox
+WHERE{
+  ?s foaf:name ?name.
+  OPTIONAL {?s foaf:mbox ?mbox}
+}
+
+EJERCICIO 4_3
+PREFIX dc:		<http://purl.org/dc/elements/1.1/>
+PREFIX ex:		<http://example.org/country/>
+PREFIX geo:	<http://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX rdfs:	<http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?s 
+WHERE{
+  ?s ex:poblacion ?poblacion
+FILTER(?poblacion > "40,000")
+}
+
+
+EJERCICIO 4_4
+PREFIX dc:		<http://purl.org/dc/elements/1.1/>
+PREFIX ex:		<http://example.org/country/>
+PREFIX geo:	<http://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX rdfs:	<http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+ASK{ 
+	ex:France ex:poblacion ?poblacion1.
+    ex:Canada ex:poblacion ?poblacion2.
+    FILTER(?poblacion1 > ?poblacion2)
+}
+
+
+EJERCICIO 4_5
+
+PREFIX dc: <http://purl.org/dc/elements/1.1/> 
+PREFIX g:  <http://example.org/film/> 
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+
+INSERT DATA
+{ 
+  <http://example.org/film/graph4> dc:title "Oscar 2012";
+                         dc:date "2015-02-08"^^xsd:date; 
+						 g:bestPicture "The Artist".
+}
+
+CLEAR GRAPH <http://example.org/film/g1>
+
+EJERCICIO 4_6
+PREFIX dc:   <http://purl.org/dc/elements/1.1/> 
+PREFIX ex2: <http://example.org/book/> 
+
+SELECT(MAX(?o) AS ?MostExpensive)
+WHERE{
+ ?s ex2:price ?o
+}
+
+EJERCICIO 4_7
+
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX g:  <http://example.org/award/> 
+PREFIX g1:  <http://example.org/film/g1/> 
+PREFIX g2:  <http://example.org/film/g2/> 
+
+SELECT ?name ?duration
+FROM default
+FROM NAMED <http://example.org/film/g1>
+WHERE {
+	?s g:bestPicture ?name
+GRAPH ?graph
+	{ ?film foaf:name ?name .
+	  ?film g1:duration ?duration}
+}
